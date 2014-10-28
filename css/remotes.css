@@ -1,0 +1,13 @@
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.error {
+  color: #f33;
+  font-size: 150%;
+}
+
+ul.members { 
+  list-style-type: none;
+}
