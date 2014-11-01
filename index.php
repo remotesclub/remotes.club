@@ -26,6 +26,8 @@
 
 <p>If you'd like a remotes.club account, fill in the <a href="/request.php">account request form</a>.</p>
 
+<p>There is a write-up on how this server works at <a href="https://rasmus.remotes.club/remotes.html">https://rasmus.remotes.club/remotes.html</a>.</p>
+
 <h2>Members</h2>
 <ul class="members">
 <?php
