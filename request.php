@@ -25,23 +25,23 @@
     <form class="pure-form pure-form-stacked" method="POST">
       <div class="pure-u-1 pure-u-md-1-3">
         <label for="userid">Desired user id</label>
-        <input type="text" name="userid" <?=p('userid',"normally 8 or less chars")?> required>
+        <input type="text" name="userid" placeholder="normally 8 or less chars" value="<?=$userid??""?>" required>
       </div>
       <div class="pure-u-1 pure-u-md-1-2">
         <label for="email">Email address</label>
-        <input class="pure-input-1-2" type="email" name="email" <?=p('email',"")?> required>
+        <input class="pure-input-1-2" type="email" name="email" value="<?=$email??""?>" required>
       </div>
       <div class="pure-u-1 pure-u-md-1-3">
         <label for="pubkey">Your <a href="https://help.github.com/articles/generating-ssh-keys/">public ssh key</a></label>
         <textarea name="pubkey" placeholder="Just copy and paste your public key here.
 Carriage returns and linefeeds will be removed, so don't
 worry about trying to manually remove those." 
-                  cols="80" rows="10" required><?=$_POST['pubkey']??''?></textarea>
+                  cols="80" rows="10" required><?=$pubkey??""?></textarea>
       </div>
       <div class="pure-u-1 pure-u-md-1-3">
         <label for="note">Brief description</label>
         <textarea name="note" placeholder="Who are you? Which company do you work for and where do you work remotely from?"
-                  cols="80" rows="10"><?=$_POST['note']??''?></textarea>
+                  cols="80" rows="10"><?=$note??""?></textarea>
       </div>
       <div class="pure-u-1 pure-u-md-1-3">
         <button type="submit" class="pure-button pure-button-primary">Submit</button>
