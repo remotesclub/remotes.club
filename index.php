@@ -37,27 +37,28 @@ $homedirs = array_filter(scandir("/home"), function($dir) {
 
 $index_files = ["index.html", "index.htm", "index.php"];
 foreach ($homedirs as $homedir) {
-  $last_update = array_reduce($index_files, function($carry, $index_file) use ($homedir) {
-    $path = "/home/$homedir/web/$index_file";
-    if (file_exists($path)) {
-      $mtime = filemtime($path);
-      if ($mtime > $carry) {
-        return $mtime;
-      } else {
-        return $carry;
-      }
-    } else {
-      return $carry;
-    }
-  }, 0);
-
-  $updated_marker = $last_update > time() - 86400 ? "*" : "";
-
-  print("<li data-last-update=\"$last_update\"><span><a href=\"https://$homedir.remotes.club\">$homedir</a></span> $updated_marker</li>\n");
+   $has_index = false;
+   $last_update = 0;
+   foreach ($index_files as $index_file) {
+       $path = "/home/$homedir/web/$index_file";
+       if (file_exists($path)) {
+           $has_index = true;
+           $mtime = filemtime($path);
+           if ($mtime > $last_update) {
+               $last_update = $mtime;
+          }
+       }
+   }
+   $updated_marker = $last_update > time() - 86400 ? "*" : "";
+   $li_class = $has_index ? "active" : "deadbeat";
+   print("<li data-last-update=\"$last_update\" class=\"$li_class\"><span><a href=\"https://$homedir.remotes.club\">$homedir</a></span> $updated_marker</li>\n");
 }
 ?>
 </ul>
-<p><small>* Updated in the last 24 hours</small></p>
+<div class="footnotes">
+<p>* Updated in the last 24 hours</p>
+<p><span class="active">Bold</span> members have created an index page.</p>
+</div>
 </div>
 </div>
 </div>

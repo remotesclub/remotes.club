@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 #wrapper {
     max-width: 960px;
     margin: 0 auto;
@@ -10,4 +14,12 @@
 
 ul.members { 
   list-style-type: none;
+}
+
+ul.members li.active {
+  font-weight: bold;
+}
+
+.footnotes {
+  font-size: 85%;
 }
