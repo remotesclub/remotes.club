@@ -23,9 +23,13 @@
 <?php /* Show the main form */
   if(empty($code) && empty($vcode)): ?>
     <form class="pure-form pure-form-stacked" method="POST">
+      <div class="pure-u-1 pure-u-md-1-2">
+        <label for="name">Name</label>
+        <input class="pure-input-1-2" type="text" name="name" placeholder="preferably your full name" value="<?=$name??""?>" required>
+      </div>
       <div class="pure-u-1 pure-u-md-1-3">
         <label for="userid">Desired user id</label>
-        <input type="text" name="userid" placeholder="normally 8 or less chars" value="<?=$userid??""?>" required>
+        <input type="text" name="userid" placeholder="normally 8 or fewer chars" value="<?=$userid??""?>" required>
       </div>
       <div class="pure-u-1 pure-u-md-1-2">
         <label for="email">Email address</label>
