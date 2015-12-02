@@ -22,7 +22,8 @@
 
 <p>A home for remote workers.</p>
 
-<p>More interesting things to come. For now, visit us on <a href="irc://irc.freenode.net/%23%23remotes">##remotes on freenode</a>.</p>
+<p>More interesting things to come. For now, join us in the  <a href="https://remotes.slack.com">Remotes Slack</a> <script async defer src="https://slack.remotes.club/slackin.js"></script>
+</p>
 
 <p>If you'd like a remotes.club account, fill in the <a href="/request.php">account request form</a>.</p>
 
