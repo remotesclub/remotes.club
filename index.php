@@ -22,12 +22,11 @@
 
 <p>A home for remote workers.</p>
 
-<p>More interesting things to come. For now, join us in the  <a href="https://remotes.slack.com">Remotes Slack</a> (<a href="https://join.slack.com/t/remotes/shared_invite/enQtNDI1OTE4OTg2MzM4LWU1YzUyMzY1YTVkNmNiNWEwZTI1MWE3OTQ4ODA5MTQ2ZmVmNWE5NDg4ZmMxNmM4N2U4YzA3NDRlOWJkN2ZiNGI">Click here for an invite.</a>)
-</p>
-
 <p>If you'd like a remotes.club account, fill in the <a href="/request.php">account request form</a>.</p>
 
 <p>There is a write-up on how this server works at <a href="https://rasmus.remotes.club/remotes2.html">https://rasmus.remotes.club/remotes2.html</a>.</p>
+
+<p>You can also join us in the  <a href="https://join.slack.com/t/remotes/shared_invite/enQtNDI1OTE4OTg2MzM4LWU1YzUyMzY1YTVkNmNiNWEwZTI1MWE3OTQ4ODA5MTQ2ZmVmNWE5NDg4ZmMxNmM4N2U4YzA3NDRlOWJkN2ZiNGI">Remotes Slack</a>.</p>
 
 <h2>Members</h2>
 <ul class="members" style="-webkit-column-count:4; column-count:4;">
