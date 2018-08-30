@@ -27,10 +27,10 @@
 
 <p>If you'd like a remotes.club account, fill in the <a href="/request.php">account request form</a>.</p>
 
-<p>There is a write-up on how this server works at <a href="https://rasmus.remotes.club/remotes.html">https://rasmus.remotes.club/remotes.html</a>.</p>
+<p>There is a write-up on how this server works at <a href="https://rasmus.remotes.club/remotes2.html">https://rasmus.remotes.club/remotes2.html</a>.</p>
 
 <h2>Members</h2>
-<ul class="members">
+<ul class="members" style="-webkit-column-count:4; column-count:4;">
 <?php
 $homedirs = array_filter(scandir("/home"), function($dir) {
   return !preg_match("/^\.|www/", $dir) && is_dir("/home/$dir");
