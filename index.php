@@ -22,7 +22,7 @@
 
 <p>A home for remote workers.</p>
 
-<p>More interesting things to come. For now, join us in the  <a href="https://remotes.slack.com">Remotes Slack</a> <script async defer src="https://slack.remotes.club/slackin.js"></script>
+<p>More interesting things to come. For now, join us in the  <a href="https://remotes.slack.com">Remotes Slack</a> (<a href="https://join.slack.com/t/remotes/shared_invite/enQtNDI1OTE4OTg2MzM4LWU1YzUyMzY1YTVkNmNiNWEwZTI1MWE3OTQ4ODA5MTQ2ZmVmNWE5NDg4ZmMxNmM4N2U4YzA3NDRlOWJkN2ZiNGI">Click here for an invite.</a>)
 </p>
 
 <p>If you'd like a remotes.club account, fill in the <a href="/request.php">account request form</a>.</p>
